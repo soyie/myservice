@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ServerDeployment" type="docker-deploy" factoryName="docker-image" singleton="false" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="portfolioserver" />
+        <option name="containerName" value="portfolio" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
